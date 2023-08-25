@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-x: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  text-decoration: none !important;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  align-items: center;
+  padding:0 40px;
+}
+.href{
+  width:50%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-fluid{
+  width:100%;
+  height:auto;
+}
+.img{
+  width:30px;
+  height:30px;
+}
+.custom-link {
+  color: black;
+  text-decoration: none;
+  font-size:13px;
+  transition: color 0.3s;
+}
+.custom-link:hover {
+  color: red;
+}
+span{
+  border-bottom: 4px solid red;
+  color:red;
+}
+.logoIpsum{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  color:grey;
+  font-size: 20px;
+  font-weight: 900;
+}
+.text-flex{
+  width:100%;
+  justify-content: space-between;
+}
+.hr{
+  width:5px;
+  height: 55px;
+  margin-top: -5px;
+  display: flex;
+  background:red;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.checkbox{
+  font-size: 15px;
+  display: flex;
+  gap:15px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.input{
+  border-bottom:none;
+}
+a{
+  font-size:13px ;
+}
+.contain{
+   display:flex;
+   margin-left:-200px;
+   justify-content:center;
+   background:"F8F8F8";
+  }
+  .M5{
+    line-height:7px;
+    margin-top:50px;
+    margin-left:-100px;
+  }
+  .img1{
+    object-fit:cover;
+    border-radius:10px;
+    width:45%;
+    height: 80%;
+  }
+  .img3{
+    object-fit:cover;
+    width: 45%;
+  }
+  .img2{
+    width:100%;
+    height:50vh;
+    margin-top:-50px;
+    overflow:hidden
+  }
+  .container2{
+    height:100vh;
+    background:"#F8F8F8"
+  }
+  .textCenter{
+    padding: 30px;
+  }
+  .media{
+    display:flex;
+    align-items:center
+  }
+  .footer{
+    height: 70vh;
+  }
+  .footer1{
+    display:flex;
+    gap:20px;
+    justify-content:space-between;
+  }
+  .h2{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .img4{
+    object-fit:fill;
+    border-radius:10px;
+    width: 37%;
+    height:100%;
+  }
+  .col{
+    width:33%;
+  }
+  .flexs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container5{
+    height: 110vh;
+   }
+   .width{
+       width: 50%;
+   }
+   .width1{
+    width: 35%;
+   }
+   .width3{
+    width: 20%;
+   }
+   .width4{
+    width: 30%;
+   }@media screen and (max-width:600px) {
+  nav{
+    width:100%;
+    display:flex;
+    align-items: center;
+  }
+  .width1{
+    width: 100%;
+  }
+  .width3{
+    width: 50%;
+   }
+  .container5{
+    height: auto;
+    width:100%;
+   }
+   .width{
+    width: 100%;
+}
+.M5{
+  display: none;
+}
+  .btn1{
+    margin-top: -60px;
+  }   nav a{
+       display: none;
+   }
+   .logoIpsum{
+      gap:20px;
+   }
+   .col{
+    width:100%;
+    margin-top: 20px;
+  }
+   .d-flex{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .flex{
+    width:100%;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .hr{
+      display: none;
+   }
+   .media{
+    display: none;
+   }
+   .container-fluid{
+    height: auto;
+   }
+   .footer ,.footer1{
+    flex-wrap: wrap;
+    height: auto;
+   }
+   .width4{
+    width: 100%;
+   }
+   .h4{
+    font-size: 10px;
+   }
+
+   .container{
+    height: auto;
+   }
+   .container3{
+     height:100vh;
+     justify-content:space-between;
+     padding:30px 30px;
+   }
+   .container3 img{
+    width:100%
+   }
+   .textCenter{
+    width: 100%;
+    text-align: left;
+    padding: 0;
+   }
+   .img1{
+    width:100%;
+   }
+   .flexs{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .textcenter{
+    text-align: center;
+   }
+   .contain{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+   }
+   .div p{
+      font-size: 10px;
+   }
+   .howworks{
+    width:100%
+   }
+   .img2{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+   }
+   
+   .text-secondary,.textred{
+    margin-left: 15px;
+   }
+   .h3{
+    margin-left: 20px;
+   }
+}
